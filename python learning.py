@@ -29,6 +29,7 @@ def abs_diff(d, b):
 
 
 
+
 def main_arithmetic():
 	print "test reverse(3): ", reverse(3)
 	print "test reverse(-3): ", reverse(-3)
@@ -36,8 +37,40 @@ def main_arithmetic():
 	print "test diff(12, 5): ", diff(12,5)
 
 
+#Boolean
+
+
+def reverse(zack):
+	return not zack
+	
+def band(a, b):
+	if a==True and b==True:
+		return True
+	else:
+		return False	
+	
+def bor2(a, b):
+	return a or b
+	
+	
+def main_boolean():
+  print "test reverse(True): ", reverse(True)
+  print "test reverse(False): ", reverse(False)
+  print "test reverse(1): ", reverse(1)
+  print "test reverse(0): ", reverse(0)
+  print "test band(True, True): ", band(True, True)
+  print "test ban2(True, False): ", band2(True, False)
+
+
+
+
+
+
+
+
 def main():
 	main_function()
 	main_arithmetic()
+	main_boolean()
 	
 main()
