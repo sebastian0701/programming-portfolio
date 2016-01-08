@@ -4,7 +4,7 @@ def coldNovember():
 	adj2 = raw_input("Enter an adjective: ")
 	adj3 = raw_input("Enter a Bird type: ")
 	adj4 = raw_input("Room in a house: ")
-	verb1 = raw_input("Enter a verb: ")
+	verb1 = raw_input("Enter a past tense verb: ")
 	verb2 = raw_input("Enter a verb: ")
 	name1 = raw_input("Enter a name: ")
 	noun1 = raw_input("Enter a noun: ")
