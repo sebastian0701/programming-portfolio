@@ -16,7 +16,7 @@ while secret_number != guess and attempts < 10:
     guess = int(input("Take a guess: "))
     attempts += 1
 
-if attempts == 6:
+if attempts == 10:
     print("\nSorry you reached the maximum number of tries")
     print("The secret number was ",secret_number) 
 
